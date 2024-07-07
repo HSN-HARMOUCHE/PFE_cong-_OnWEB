@@ -7,7 +7,7 @@ organizational efficiency and employee satisfaction.
 
 <h3>page 1 _ Login :</h3>
 The login page serves as the gateway to the Leave and Absence Management System. Users are required to authenticate by entering their credentials, which ensures secure access to the system. The design is user-friendly, offering a clean interface for easy login. This page ensures that only authorized personnel can access the subsequent functionalities of the application.
-![login](https://github.com/HSN-HARMOUCHE/PFE_cong-_OnWEB/assets/151852339/963116d9-6314-4cf1-990e-9fa2f059b007)
+![login](https://github.com/HSN-HARMOUCHE/PFE_cong-_OnWEB/assets/151852339/8563ef0b-a8d3-4136-900c-a1361fc22e7c)
 
 <h3>page 2 _ Dashboard :</h3>
 Once logged in, users are greeted with the dashboard, which provides an overview of the system's status and key metrics. The dashboard is designed to offer quick access to various sections of the application, such as leave requests, employee details, and absence records. It features widgets and charts for a visual representation of data.
