@@ -1,66 +1,37 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# PFE_cong-_OnWEB
+laravel project for "gestion des Congé"
+Design and implementation of a complete leave and absence management system with Laravel, allowing
+employees to request and track their leave, and administrators to efficiently manage requests. The system
+includes features such as date validation, notification alerts and role-based access control, improving
+organizational efficiency and employee satisfaction.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<h3>page 1 _ Login :</h3>
+The login page serves as the gateway to the Leave and Absence Management System. Users are required to authenticate by entering their credentials, which ensures secure access to the system. The design is user-friendly, offering a clean interface for easy login. This page ensures that only authorized personnel can access the subsequent functionalities of the application.
+![login](https://github.com/HSN-HARMOUCHE/PFE_cong-_OnWEB/assets/151852339/963116d9-6314-4cf1-990e-9fa2f059b007)
 
-## About Laravel
+<h3>page 2 _ Dashboard :</h3>
+Once logged in, users are greeted with the dashboard, which provides an overview of the system's status and key metrics. The dashboard is designed to offer quick access to various sections of the application, such as leave requests, employee details, and absence records. It features widgets and charts for a visual representation of data.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+![Screenshot_7-7-2024_192037_localhost](https://github.com/HSN-HARMOUCHE/PFE_cong-_OnWEB/assets/151852339/8cba7d59-f920-43dd-bd4f-aeb1fadba05d)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<h3>page 3 _ Employees :</h3>
+The employees' page lists all the employees within the organization. Only administrators have access to this page. Administrators can view detailed profiles of each employee, including their personal information, contact details, and job roles. This page supports search and filter functionalities, making it easy to find specific employees .
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+![Screenshot_7-7-2024_192143_localhost](https://github.com/HSN-HARMOUCHE/PFE_cong-_OnWEB/assets/151852339/22e5885c-0481-49ce-8fe4-989eec63d1d0)
 
-## Learning Laravel
+<h3>page 4 _ Congé/Leave : </h3>
+On the leave page, employees can request time off by filling out a leave application form. The system performs date validation to prevent overlapping requests and ensures compliance with company policies. Administrators are the only ones who can review, approve, or reject leave requests. Once the administrator takes an action, an email notification is sent to the employee, keeping them informed of the status of their request.
+![Screenshot_7-7-2024_192230_localhost](https://github.com/HSN-HARMOUCHE/PFE_cong-_OnWEB/assets/151852339/ffa13972-dd29-47bc-974c-e4882f7ecc2f)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<h3>page 5 _ Absence : </h3>
+The absence page records instances when employees are absent from work without prior leave requests. It helps in maintaining accurate attendance records and identifies patterns that may need addressing. Employees can declare their absence, and an email notification is sent to all administrators, ensuring they are aware of the absence.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+![Screenshot_7-7-2024_192257_localhost](https://github.com/HSN-HARMOUCHE/PFE_cong-_OnWEB/assets/151852339/c7ea6b9c-dd78-4415-bd54-f37005ff8bb8)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<h3>page 6 _ Statistics : </h3>
+The statistics page provides analytical insights into the leave and absence data. It features charts and graphs that depict trends over time, such as the number of leaves taken per month, absence rates, and leave types. This data visualization helps administrators identify areas for improvement and make informed decisions to enhance organizational efficiency and employee satisfaction.
 
-## Laravel Sponsors
+![Screenshot_7-7-2024_192343_localhost](https://github.com/HSN-HARMOUCHE/PFE_cong-_OnWEB/assets/151852339/04c16734-5d59-4b17-b6cc-2501f763342e)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
